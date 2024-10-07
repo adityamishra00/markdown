@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #303030;
+}
+.nav-left, .nav-right, .menu, .delete, .file-name{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.logo{
+    width: 30px;
+    height: 20px;
+}
+.menu img{
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+}
+.menu p{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-right: 10px;
+    color: #e0e0e0;
+    position: relative;
+    letter-spacing: 2px;
+}
+.menu p::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 35px;
+    background-color: #404040;
+    top: -7px;
+    right: -10px;
+}
+
+.file-name{
+    padding: 0 10px;
+}
+.file-name p{
+    color: #808080;
+    margin-left: 5px;
+}
+.delete{
+    margin-right: 20px;
+}
+.delete-img{
+    padding-right:20px;
+    cursor: pointer;
+}
+.save-btn{
+    all: unset;
+    vertical-align: top;
+    padding: 6px 20px;
+    background-color: #ff4400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-content{
+    display: flex;
+    align-items: center;
+}
+.button-content img{
+    all: unset;
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+.button-content span{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px){
+    .menu p{
+        display: none;
+    }
+    .button-content img{
+        padding-right: 0px;
+    }
+    .button-content span{
+        display: none;
+    }
+}

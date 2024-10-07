@@ -1,0 +1,107 @@
+.preview {
+  font-family: "Arial", sans-serif;
+}
+
+.preview ul,
+.preview li,
+.preview ol {
+  margin-left: 20px;
+}
+
+.preview h1,
+.preview h2,
+.preview h3,
+.preview h4,
+.preview h5,
+.preview h6 {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.preview p,
+.preview ul,
+.preview ol {
+  margin: 0.5em 0;
+}
+
+.preview code {
+  padding: 2px 4px;
+  background-color: #333;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  color: #fff;
+}
+
+.preview a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.preview hr {
+  border: none;
+  height: 1px;
+  background-color: #fff;
+  margin: 1em 0;
+}
+
+.preview blockquote {
+  border-left: 2px solid #fff;
+  padding-left: 10px;
+  margin: 1em 0;
+  color: #ccc;
+}
+
+.preview table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.preview table th,
+.preview table td {
+  padding: 6px 13px;
+  border: 1px solid #fff;
+}
+
+.preview table th {
+  background-color: #333;
+}
+
+.preview table td {
+  background-color: #1e1e1e;
+}
+
+.preview table th,
+.preview table td {
+  text-align: left;
+}
+
+.preview img {
+  max-width: 100%;
+  margin: 1em 0;
+}
+
+.preview pre {
+  background-color: #333;
+  color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.preview pre code {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  font-family: "Courier New", monospace;
+  color: #fff;
+}
+
+.preview pre code::before,
+.preview pre code::after {
+  content: none;
+}
